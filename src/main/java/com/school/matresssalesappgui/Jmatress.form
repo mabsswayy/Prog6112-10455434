@@ -79,18 +79,21 @@
                           <Component id="lblSelectProduct" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="lblCustomerName" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="44" max="32767" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <Component id="txtCustomerName" min="-2" pref="193" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
-                          </Group>
                           <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="1" max="-2" attributes="0">
                                   <Component id="cmbSelect" pref="194" max="32767" attributes="0"/>
                                   <Component id="txtEnterPrice" max="32767" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtCustomerName" alignment="0" min="-2" pref="193" max="-2" attributes="0"/>
+                                  <Component id="btnProcess" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -100,12 +103,18 @@
                           <Component id="lblCommision" min="-2" max="-2" attributes="0"/>
                           <Component id="lblTotalsales" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="btnProcess" pref="198" max="32767" attributes="0"/>
-                          <Component id="txtVAT" alignment="0" max="32767" attributes="0"/>
-                          <Component id="txtCommision" alignment="0" max="32767" attributes="0"/>
-                          <Component id="txtTotalSales" alignment="0" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                              <Component id="txtTotalSales" min="-2" pref="198" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="txtCommision" min="-2" pref="198" max="-2" attributes="0"/>
+                                  <Component id="txtVAT" min="-2" pref="198" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
                       </Group>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
@@ -131,9 +140,9 @@
                   <Component id="lblEnterPrice" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtEnterPrice" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
               <Component id="btnProcess" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="txtVAT" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="lblVAT" alignment="3" min="-2" max="-2" attributes="0"/>
